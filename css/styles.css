@@ -228,9 +228,9 @@ a {
     }
 }
 
-/* Org. Description */
+/* Homepage content */
 
-.org__description, .mission {
+.org__description, .mission, .vision {
     padding: 5rem 3rem;
 }
 
@@ -241,7 +241,7 @@ a {
 
 @media screen and (min-width: 495px) {
 
-    .org__description, .mission {
+    .org__description, .mission, .vision {
         padding: 5rem;
     }
 }
