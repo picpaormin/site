@@ -69,3 +69,10 @@ p {
     overflow: hidden;
     padding: 1rem;
 }
+
+/*Lists*/
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
