@@ -97,6 +97,29 @@ a {
     opacity: 1;
 }
 
+/*Blocks*/
+
+.block--dark {
+    background: var(--color-dark);
+    color: var(--color-light);
+}
+
+.block--dark > h1 {
+    color: var(--color-light);
+}
+
+.block--light {
+    background: var(--color-light);
+}
+
+.block--white {
+    background: #fff;
+}
+
+.block__footer{
+    background: #333;
+    color: var(--color-light);
+}
 
 /*Icon*/
 
