@@ -230,7 +230,7 @@ a {
 
 /* Org. Description */
 
-.org__description {
+.org__description, .mission {
     padding: 5rem 3rem;
 }
 
@@ -241,8 +241,7 @@ a {
 
 @media screen and (min-width: 495px) {
 
-    .org__description {
+    .org__description, .mission {
         padding: 5rem;
     }
 }
-
