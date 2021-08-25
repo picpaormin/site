@@ -108,6 +108,18 @@ a {
     opacity: 1;
 }
 
+/*Button*/
+
+.btn--text {
+    color: #b2b2b2;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.collapsible--expanded .btn--text {
+    display: none;
+}
+
 /*Blocks*/
 
 .block--dark {
@@ -247,7 +259,7 @@ a {
 
 /* Homepage content */
 
-.org__description, .mission, .vision, .core-values {
+.org__description, .mission, .vision, .core-values, .theme {
     padding: 5rem 3rem;
 }
 
@@ -256,9 +268,13 @@ a {
     font-weight: bold;
 }
 
+.theme > img {
+    width: 100%;
+}
+
 @media screen and (min-width: 495px) {
 
-    .org__description, .mission, .vision, .core-values {
+    .org__description, .mission, .vision, .core-values, .theme {
         padding: 5rem;
     }
 }
