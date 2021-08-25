@@ -280,6 +280,14 @@ a {
     margin-bottom: 2rem;
 }
 
+.theme.collapsible .collapsible__content {
+    margin-bottom: 0;
+}
+
+.theme.collapsible--expanded .collapsible__content {
+    margin-bottom: 2rem;
+}
+
 .footer {
     padding: 3rem;
 }
