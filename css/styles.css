@@ -268,7 +268,7 @@ a {
 
 /* Homepage content */
 
-.org__description, .mission, .vision, .core-values, .theme {
+.org-description, .mission, .vision, .core-values, .theme {
     padding: 5rem 3rem;
 }
 
@@ -309,7 +309,7 @@ a {
 
 @media screen and (min-width: 495px) {
 
-    .org__description, .mission, .vision, .core-values, .theme {
+    .org-description, .mission, .vision, .core-values, .theme {
         padding: 5rem;
     }
 
