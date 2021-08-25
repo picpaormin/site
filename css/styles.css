@@ -159,6 +159,15 @@ a {
     align-self: center;
 }
 
+.icon__fb {
+    width: 4rem;
+}
+
+.icon__email {
+    width: 4.5rem;
+    height: 4rem;
+}
+
 /*Logo*/
 
 .logo {
@@ -272,10 +281,43 @@ a {
     width: 100%;
 }
 
+.footer {
+    padding: 3rem;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1.3rem;
+    opacity: 0.80;
+    margin-bottom: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex__icon {
+    column-gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.flex__content {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 @media screen and (min-width: 495px) {
 
     .org__description, .mission, .vision, .core-values, .theme {
         padding: 5rem;
+    }
+
+    .flex__content {
+        flex-direction: row;
+        gap: 1.5rem;
+        justify-content: space-between;
+        align-items: flex-end;
     }
 }
 
