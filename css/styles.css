@@ -59,9 +59,26 @@ p {
 
 .box {
     border-radius: 5px;
-    box-shadow: 0 0 20px 10px #f3f3f3;
+    box-shadow: 0 0 20px 5px #e3e3e3;
     overflow: hidden;
     padding: 1rem;
+}
+
+.box__content {
+    text-align: center;
+}
+
+.box__heading {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.box__body {
+    margin-bottom: 0;
+}
+
+.box--primary {
+    background: #fff;
 }
 
 /*Lists*/
@@ -230,7 +247,7 @@ a {
 
 /* Homepage content */
 
-.org__description, .mission, .vision {
+.org__description, .mission, .vision, .core-values {
     padding: 5rem 3rem;
 }
 
@@ -241,7 +258,28 @@ a {
 
 @media screen and (min-width: 495px) {
 
-    .org__description, .mission, .vision {
+    .org__description, .mission, .vision, .core-values {
         padding: 5rem;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-gap: 2rem;
+}
+
+.span--two {
+    margin: 2rem auto;
+    max-width: 67rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .grid-1x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .span--two {
+        max-width: 54rem;
     }
 }
