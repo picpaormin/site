@@ -1,0 +1,85 @@
+.main__content {
+    padding: 5rem 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.main__heading {
+    margin-bottom: 0;
+}
+
+.main__subheading {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.block__container {
+    padding: 5rem 2rem;
+}
+
+.officer-img {
+    border-radius: 50%;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+.officer-name {
+    color: #4F6F73;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.grid-col-1x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.odd-img {
+    grid-column: 1 / span 2;
+}
+
+.center-x {
+    align-items: start;
+    text-align: center;
+}
+
+.center-xy {
+    align-items: center;
+    text-align: center;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+@media screen and (min-width: 600px) {
+
+    .grid-max-width {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .grid-col-1x3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .grid-col-1x4 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .odd-img {
+        grid-column: unset;
+    }
+}
