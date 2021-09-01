@@ -19,6 +19,7 @@
 
 .officer-img {
     border-radius: 50%;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 .officer-name {
@@ -30,6 +31,18 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+}
+
+.odd-img {
+    grid-column: 1 / span 2;
+}
+
+.center-x {
+    align-items: start;
+    text-align: center;
+}
+
+.center-xy {
     align-items: center;
     text-align: center;
 }
@@ -38,8 +51,12 @@
     justify-self: center;
 }
 
-.text-alignment {
-    text-align: center;
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
 }
 
 @media screen and (min-width: 600px) {
@@ -47,5 +64,15 @@
     .grid-max-width {
         max-width: 800px;
         margin: 0 auto;
+    }
+
+    .grid-col-1x3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .odd-img {
+        grid-column: unset;
     }
 }
