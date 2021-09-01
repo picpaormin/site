@@ -1,0 +1,51 @@
+.main__content {
+    padding: 5rem 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.main__heading {
+    margin-bottom: 0;
+}
+
+.main__subheading {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.block__container {
+    padding: 5rem 2rem;
+}
+
+.officer-img {
+    border-radius: 50%;
+}
+
+.officer-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.grid-col-1x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.text-alignment {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+
+    .grid-max-width {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
