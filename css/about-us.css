@@ -23,6 +23,7 @@
 }
 
 .officer-name {
+    color: #4F6F73;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -62,7 +63,7 @@
 @media screen and (min-width: 600px) {
 
     .grid-max-width {
-        max-width: 800px;
+        max-width: 1000px;
         margin: 0 auto;
     }
 
