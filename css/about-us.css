@@ -77,6 +77,10 @@ h5 {
     text-align: right;
 }
 
+.margin-bottom {
+   margin-bottom: 1rem;
+}
+
 @media screen and (min-width: 600px) {
 
     .grid-max-width {
