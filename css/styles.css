@@ -202,7 +202,7 @@ a {
 
 .nav__item {
     border-bottom: 1px solid #666666;
-    padding: 0.5rem 0 0;
+    padding: 1rem 0.5rem;
 }
 
 .nav__item > a {
