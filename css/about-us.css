@@ -1,3 +1,8 @@
+h5 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
 .main__content {
     padding: 5rem 3rem;
     margin-bottom: 3rem;
@@ -10,7 +15,7 @@
 
 .main__subheading {
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
 }
 
 .block__container {
@@ -22,9 +27,21 @@
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
-.officer-name {
+.font-size--small {
     color: #4F6F73;
     font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.font-size--medium {
+    color: #4F6F73;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.font-size--large {
+    color: #4F6F73;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -58,6 +75,10 @@
 
 .right-align {
     text-align: right;
+}
+
+.margin-bottom {
+   margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 600px) {
