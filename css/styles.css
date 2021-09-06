@@ -182,7 +182,7 @@ a {
 /*Logo*/
 
 .logo {
-    width: 30rem;
+    width: 32rem;
 }
 
 /*Navigation Bar*/
@@ -192,7 +192,7 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 2rem 1rem;
+    padding: 2rem;
 }
 
 .nav__list {
@@ -231,10 +231,6 @@ a {
 
 @media screen and (min-width: 768px) {
 
-    .nav {
-        padding: 2rem;
-    }
-
     .nav__toggler {
         display: none;
     }
@@ -252,7 +248,7 @@ a {
     }
 
     .logo {
-        width: 32rem;
+        width: 33rem;
     }
 }
 
