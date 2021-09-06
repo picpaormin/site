@@ -16,3 +16,15 @@ function onReadMore(element) {
         p[i].classList.toggle('collapsible--expanded');
     }
 }
+
+let modal = document.getElementById('myModal');
+
+function onClick(element) {
+    let container = document.getElementById('modalImg');
+    container.src = element.src;
+    modal.style.display = 'block';
+}
+
+function onClose() {
+    modal.style.display = 'none';
+}
