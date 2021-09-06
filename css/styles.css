@@ -114,7 +114,7 @@ a {
     transition: all 0.3s;
 }
 
-.collapsible--expanded .collapsible__content {
+.collapsible__content.collapsible--expanded {
     max-height: 100vh;
     opacity: 1;
 }
@@ -182,7 +182,7 @@ a {
 /*Logo*/
 
 .logo {
-    width: 30rem;
+    width: 32rem;
 }
 
 /*Navigation Bar*/
@@ -192,7 +192,7 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 2rem 1rem;
+    padding: 2rem;
 }
 
 .nav__list {
@@ -202,7 +202,7 @@ a {
 
 .nav__item {
     border-bottom: 1px solid #666666;
-    padding: 0.5rem 0 0;
+    padding: 1rem 0.5rem;
 }
 
 .nav__item > a {
@@ -217,6 +217,12 @@ a {
 .nav__toggler {
     cursor: pointer;
     opacity: 0.7;
+    border: 0;
+    background: transparent;
+}
+
+.nav__toggler:hover {
+    background: #6F7981;
 }
 
 .nav.collapsible--expanded .nav__toggler {
@@ -224,10 +230,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-
-    .nav {
-        padding: 2rem;
-    }
 
     .nav__toggler {
         display: none;
@@ -246,7 +248,7 @@ a {
     }
 
     .logo {
-        width: 32rem;
+        width: 33rem;
     }
 }
 
@@ -300,8 +302,20 @@ a {
     margin-bottom: 0;
 }
 
-.theme.collapsible--expanded .collapsible__content {
+.theme.collapsible .collapsible__content.collapsible--expanded {
     margin-bottom: 2rem;
+}
+
+.theme.collapsible .collapsible__content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: none;
+}
+
+.theme.collapsible .collapsible__content.collapsible--expanded {
+    max-height: 100vh;
+    opacity: 1;
 }
 
 .footer {
