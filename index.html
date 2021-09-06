@@ -17,8 +17,10 @@
 <header class="block--dark">
     <nav class="nav collapsible container">
         <a href="/"><img class="logo" src="images/picpa-logo.svg" alt="PICPA Oriental Mindoro Logo"></a>
-        <img class="icon nav__toggler" src="images/nav-menu.svg" alt="">
-        <ul class="list nav__list collapsible__content">
+        <button title="toggler" class="nav__toggler" onclick="onToggleMenu()">
+            <img class="icon" src="images/nav-menu.svg" alt="">
+        </button>
+        <ul id="menu" class="list nav__list collapsible__content">
             <li class="nav__item"><a href="index.html">Home</a></li>
             <li class="nav__item"><a href="html/news.html">News</a></li>
             <li class="nav__item"><a href="html/events.html">Events</a></li>
@@ -27,6 +29,7 @@
         </ul>
     </nav>
 </header>
+
 <section class="block--dark">
     <div class="hero container">
         <header class="hero__content">
@@ -107,7 +110,7 @@
 </section>
 
 <section class="block--primary">
-    <div class="theme collapsible container">
+    <div id="theme" class="theme collapsible container">
         <h2>Theme of the year.</h2>
         <img src="images/picpa-theme.png" alt="PICPA Theme Logo">
         <p>The environment in which PICPA operates is changing rapidly.</p>
@@ -119,9 +122,6 @@
         <p>PICPA as an organization needs to be open and willing to embrace new ways of doing things in order to fortify
             its relevance to its members, the Filipino accountants, and the accountancy profession as a whole. It needs
             to transform with resiliency, agility, and innovation. </p>
-
-        <p class="btn--text">Read more...</p>
-
         <p class="collapsible__content">Resiliency reflects our strength and ability to recover from challenges.</p>
         <p class="collapsible__content">Agility demonstrates our ability to move quickly and react, positively to
             disruptions.</p>
@@ -163,6 +163,7 @@
         <p class="collapsible__content">This is our guiding principle, our advocacy, our theme. “TRANSFORM: Embracing
             possibilities, Realizing
             potentials”.</p>
+        <p class="btn--text" onclick="onReadMore(this)">Read more...</p>
     </div>
 </section>
 
