@@ -214,6 +214,7 @@ a {
 }
 
 .nav__toggler {
+    border-radius: 3px;
     cursor: pointer;
     opacity: 0.7;
     border: 0;
